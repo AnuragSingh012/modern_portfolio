@@ -1,9 +1,7 @@
 import Hero from "@/components/Hero";
 import { FloatingNav } from "@/components/ui/FloatingNav";
 import { Grid } from "@/components/Grid";
-import Image from "next/image";
 import { Projects } from "@/components/Projects";
-import { TracingBeam } from "@/components/ui/TracingBeam";
 import { navItems } from "@/data";
 import Footer from "@/components/Footer";
 
