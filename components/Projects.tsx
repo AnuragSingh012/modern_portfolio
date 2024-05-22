@@ -43,7 +43,7 @@ export function Projects() {
                     className="px-4 py-2 rounded-xl text-xs font-normal dark:text-white"
                   >
                     <a href={item.link} target="_blank">
-                      <p className="text-xl text-white font-semibold">
+                      <p className="text-xl text-blue-300 font-semibold">
                         {item.live && item.live}
                       </p>
                     </a>
