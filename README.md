@@ -1,3 +1,16 @@
+# Portfolio Website
+
+
+### [Live Site](https://anurag-portfolio-nu.vercel.app)
+
+![Portfolio Website](https://res.cloudinary.com/dpwczamws/image/upload/v1716918576/uploads/Screenshot_2024-05-28_231842_hdsqoe.png)
+
+## <a name="tech-stack">⚙️ Tech Stack</a>
+- React
+- Tailwindcss
+- Aceternity UI
+
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
