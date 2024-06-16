@@ -4,7 +4,6 @@ export const navItems = [
   { name: "Contact", link: "#contact" },
 ];
 
-
 export const projects = [
   {
     id: 1,
@@ -20,7 +19,7 @@ export const projects = [
       "/mongodb.png",
     ],
     link: "https://wanderlust-5aql.onrender.com/listings",
-    live: "Live Site"
+    live: "Live Site",
   },
   {
     id: 2,
@@ -29,37 +28,53 @@ export const projects = [
     img: "/project1.png",
     iconLists: ["/react.png", "/tailwind.png"],
     link: "https://nike-landing-page-e86c.onrender.com/",
-    live: "Live Site"
+    live: "Live Site",
+  },
+  {
+    id: 3,
+    title: "DevFlow",
+    des: "A platform for developers to share and discover programming content",
+    img: "/project5.png",
+    iconLists: [
+      "/react.png",
+      "/tailwind.png",
+      "/mu5.png",
+      "/node.png",
+      "/mongodb.png",
+    ],
+    link: "https://dev-flow-nine.vercel.app",
+    live: "Live Site",
+  },
+  {
+    id: 4,
+    title: "Portfolio website",
+    des: "Developed a personal portfolio website showcasing my skills, projects, and experiences",
+    img: "/project4.png",
+    iconLists: ["/nextjs.png", "/tailwind.png", "/aceternity.png"],
+    link: "https://anurag-portfolio-nu.vercel.app",
+    live: "Live Site",
   },
   {
     id: 3,
     title: "Spotify UI Clone",
     des: "Responsive design principles which ensure a consistent and enjoyable experience across various devices and screen sizes",
     img: "/project3.png",
-    iconLists: ["/html.png", "/css.png", "/javascript.png"],
-    link: "",
+    iconLists: ["/html.png", "/css.png"],
+    link: "https://anuragsingh012.github.io/spotify_clone",
+    live: "Live Site",
   },
-  {
-    id: 3,
-    title: "Portfolio website",
-    des: "Developed a personal portfolio website showcasing my skills, projects, and experiences",
-    img: "/project4.png",
-    iconLists: ["/react.png", "/tailwind.png", "/aceternity.png",],
-    link: "",
-  }
 ];
-
 
 export const socialMedia = [
   {
     id: 1,
     img: "/git.svg",
-    link: "https://github.com/AnuragSingh012"
+    link: "https://github.com/AnuragSingh012",
   },
   {
     id: 3,
     img: "/link.svg",
-    link: "https://www.linkedin.com/in/anuragsingh012/"
+    link: "https://www.linkedin.com/in/anuragsingh012/",
   },
 ];
 
