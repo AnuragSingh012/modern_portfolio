@@ -23,6 +23,19 @@ export const projects = [
   },
   {
     id: 2,
+    title:
+      "Briefly - A platform that summarizes webpage content based on URL",
+    des: "Developed an application that allows users to input a URL and receive a concise summary of the webpage content",
+    img: "/project6.png",
+    iconLists: [
+      "/react.png",
+      "/tailwind.png",
+    ],
+    link: "https://briefly-orcin.vercel.app",
+    live: "Live Site",
+  },
+  {
+    id: 3,
     title: "Nike Landing Page",
     des: "Implemented a visually appealing and user-friendly design, aligning with Nike's brand aesthetics and guidelines",
     img: "/project1.png",
@@ -31,7 +44,7 @@ export const projects = [
     live: "Live Site",
   },
   {
-    id: 3,
+    id: 4,
     title: "DevFlow",
     des: "A platform for developers to share and discover programming content",
     img: "/project5.png",
@@ -46,7 +59,7 @@ export const projects = [
     live: "Live Site",
   },
   {
-    id: 4,
+    id: 5,
     title: "Portfolio website",
     des: "Developed a personal portfolio website showcasing my skills, projects, and experiences",
     img: "/project4.png",
@@ -55,7 +68,7 @@ export const projects = [
     live: "Live Site",
   },
   {
-    id: 3,
+    id: 6,
     title: "Spotify UI Clone",
     des: "Responsive design principles which ensure a consistent and enjoyable experience across various devices and screen sizes",
     img: "/project3.png",
