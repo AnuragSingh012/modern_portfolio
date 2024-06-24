@@ -22,11 +22,11 @@ const Hero = () => {
           <div className="mt-4 flex gap-6">
             <a
               target="_blank"
-              href="https://drive.google.com/file/d/1h-bgLAjcZiFKHTlYHxfWYUzza3m4_1N5/view"
+              href="https://drive.google.com/file/d/1nd5jbd1WtksGqnCOjVL1coCigqzAXg_5/view"
             >
               <MagicButton />
             </a>
-            <a href="https://drive.usercontent.google.com/u/0/uc?id=1h-bgLAjcZiFKHTlYHxfWYUzza3m4_1N5&export=download">
+            <a href="https://drive.usercontent.google.com/uc?id=1nd5jbd1WtksGqnCOjVL1coCigqzAXg_5&export=download">
               <ShimmerButton />
             </a>
           </div>

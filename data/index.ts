@@ -8,7 +8,7 @@ export const projects = [
   {
     id: 1,
     title:
-      "WanderLust - A platform that connects people looking to rent their homes",
+      "Wanderlust - A platform that connects people looking to rent their homes",
     des: "The application allows property owners to list their homes, and travelers to discover, book, and review accommodations",
     img: "/project2.png",
     iconLists: [
