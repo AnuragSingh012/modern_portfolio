@@ -23,14 +23,10 @@ export const projects = [
   },
   {
     id: 2,
-    title:
-      "Briefly - A platform that summarizes webpage content based on URL",
+    title: "Briefly - A platform that summarizes webpage content based on URL",
     des: "Developed an application that allows users to input a URL and receive a concise summary of the webpage content",
     img: "/project6.png",
-    iconLists: [
-      "/react.png",
-      "/tailwind.png",
-    ],
+    iconLists: ["/react.png", "/tailwind.png"],
     link: "https://briefly-orcin.vercel.app",
     live: "Live Site",
   },
@@ -45,6 +41,15 @@ export const projects = [
   },
   {
     id: 4,
+    title: "Quizify",
+    des: "Unleash your creativity and challenge your knowledge! Create custom quizzes or test your skills with quizzes made by others.",
+    img: "/project7.png",
+    iconLists: ["/react.png", "/tailwind.png", "/node.png", "/mongodb.png"],
+    link: "https://quizify-client.vercel.app",
+    live: "Live Site",
+  },
+  {
+    id: 5,
     title: "DevFlow",
     des: "A platform for developers to share and discover programming content",
     img: "/project5.png",
@@ -59,7 +64,7 @@ export const projects = [
     live: "Live Site",
   },
   {
-    id: 5,
+    id: 6,
     title: "Portfolio website",
     des: "Developed a personal portfolio website showcasing my skills, projects, and experiences",
     img: "/project4.png",
@@ -68,7 +73,7 @@ export const projects = [
     live: "Live Site",
   },
   {
-    id: 6,
+    id: 7,
     title: "Spotify UI Clone",
     des: "Responsive design principles which ensure a consistent and enjoyable experience across various devices and screen sizes",
     img: "/project3.png",
