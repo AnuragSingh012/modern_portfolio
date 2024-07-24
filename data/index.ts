@@ -7,6 +7,15 @@ export const navItems = [
 export const projects = [
   {
     id: 1,
+    title: "InterviewAI - Interview Preparation Platform",
+    des: "Interview preparation platform that leverages AI to deliver tailored mock interviews",
+    img: "/project8.png",
+    iconLists: ["/react.png", "/tailwind.png", "/clerk.png", "/node.png", "/mongodb.png"],
+    link: "https://interview-ai-chi.vercel.app",
+    live: "Live Site",
+  },
+  {
+    id: 2,
     title:
       "Wanderlust - A platform that connects people looking to rent their homes",
     des: "The application allows property owners to list their homes, and travelers to discover, book, and review accommodations",
@@ -22,7 +31,7 @@ export const projects = [
     live: "Live Site",
   },
   {
-    id: 2,
+    id: 3,
     title: "Briefly - A platform that summarizes webpage content based on URL",
     des: "Developed an application that allows users to input a URL and receive a concise summary of the webpage content",
     img: "/project6.png",
@@ -31,7 +40,7 @@ export const projects = [
     live: "Live Site",
   },
   {
-    id: 3,
+    id: 4,
     title: "Nike Landing Page",
     des: "Implemented a visually appealing and user-friendly design, aligning with Nike's brand aesthetics and guidelines",
     img: "/project1.png",
@@ -40,7 +49,7 @@ export const projects = [
     live: "Live Site",
   },
   {
-    id: 4,
+    id: 5,
     title: "Quizify",
     des: "Unleash your creativity and challenge your knowledge! Create custom quizzes or test your skills with quizzes made by others.",
     img: "/project7.png",
@@ -49,7 +58,7 @@ export const projects = [
     live: "Live Site",
   },
   {
-    id: 5,
+    id: 6,
     title: "DevFlow",
     des: "A platform for developers to share and discover programming content",
     img: "/project5.png",
@@ -64,7 +73,7 @@ export const projects = [
     live: "Live Site",
   },
   {
-    id: 6,
+    id: 7,
     title: "Portfolio website",
     des: "Developed a personal portfolio website showcasing my skills, projects, and experiences",
     img: "/project4.png",
@@ -73,7 +82,7 @@ export const projects = [
     live: "Live Site",
   },
   {
-    id: 7,
+    id: 8,
     title: "Spotify UI Clone",
     des: "Responsive design principles which ensure a consistent and enjoyable experience across various devices and screen sizes",
     img: "/project3.png",
