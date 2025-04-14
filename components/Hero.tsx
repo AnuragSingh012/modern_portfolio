@@ -1,7 +1,8 @@
 import React from "react";
-import { Spotlight } from "./ui/Spotlight";
+import { Spotlight } from "./ui/SpotlightNew";
 import MagicButton from "./ui/MagicButton";
 import ShimmerButton from "./ui/ShimmerButton";
+
 
 const Hero = () => {
   return (
@@ -13,7 +14,7 @@ const Hero = () => {
         <div className="max-w-[89vw] md:max-w-2xl lg:max-w-[60vw] flex flex-col items-center justify-center">
           <h1 className="text-white text-center text-[40px] md:text-5xl lg:text-6xl font-semibold">
             Turning Visionary Ideas into
-            <span className="text-purple"> Effortless Experiences</span>
+            <span className="bg-gradient-to-r from-[#8b5cf6] to-pink-500 bg-clip-text text-transparent"> Effortless Experiences</span>
           </h1>
 
           <p className="mt-4 text-center text-white md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl">
