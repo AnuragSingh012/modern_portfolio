@@ -3,6 +3,7 @@ import React from "react";
 import { motion } from "motion/react";
 
 type SpotlightProps = {
+  className?: string,
   gradientFirst?: string;
   gradientSecond?: string;
   gradientThird?: string;
