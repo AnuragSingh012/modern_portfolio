@@ -1,6 +1,5 @@
-import React from "react";
-import Image from "next/image";
 import { socialMedia } from "@/data";
+import React from "react";
 
 const Footer = () => {
   return (
@@ -10,9 +9,9 @@ const Footer = () => {
       </h1>
       <div className="flex gap-4 p-8 mx-4 mb-8 justify-center items-center">
         {socialMedia.map((item) => (
-          <a className="z-10" key={item.id} href={item.link} target="_blank" rel="noopener noreferrer">
+          <a className="z-10" key={item.id} href={item.link} target="_blank">
             <div className="bg-black-200 w-14 h-14 rounded-full border-2 border-black-300 cursor-pointer flex justify-center items-center">
-              <Image src={item.img} alt={item.id} width={20} height={20} />
+              <img width={20} height={20} src={item.img} alt={item.img} />
             </div>
           </a>
         ))}
