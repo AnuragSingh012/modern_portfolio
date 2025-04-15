@@ -139,8 +139,12 @@ export const techStack = [
     img: "typescript.png",
   },
   {
-    title: "ReactJs",
+    title: "Reactjs",
     img: "react.png",
+  },
+  {
+    title: "Nextjs",
+    img: "next.png",
   },
   {
     title: "React Router",
@@ -151,11 +155,11 @@ export const techStack = [
     img: "java.png",
   },
   {
-    title: "NodeJs",
+    title: "Nodejs",
     img: "node.png",
   },
   {
-    title: "ExpressJs",
+    title: "Expressjs",
     img: "express.png",
   },
   {

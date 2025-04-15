@@ -3,6 +3,7 @@ import Image from "next/image";
 import React from "react";
 import { WobbleCard } from "./ui/WobbleCard";
 import { techStack } from "@/data";
+import { BackgroundBeamsWithCollision } from "./ui/BackgroundBeamsWithCollision";
 
 export function Grid() {
   return (
@@ -30,7 +31,12 @@ export function Grid() {
           learn and contribute to innovative projects.
         </p>
       </WobbleCard>
+      <div className="absolute inset-0 z-0">
+      </div>
       <WobbleCard containerClassName="col-span-1 lg:col-span-3 bg-black-300 min-h-[500px] lg:min-h-[600px] xl:min-h-[300px]">
+      <BackgroundBeamsWithCollision className="absolute">
+          <></>
+        </BackgroundBeamsWithCollision>
         <div className="w-full flex item-center justify-center text-3xl lg:text-5xl font-semibold tracking-[-0.015em] text-white">
           Tech Stack
         </div>

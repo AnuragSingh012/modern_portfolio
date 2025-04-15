@@ -1,5 +1,6 @@
 import React from "react";
 import { Spotlight } from "./ui/SpotlightNew";
+import { BackgroundLines } from "./ui/BackgroundLines";
 import MagicButton from "./ui/MagicButton";
 import ShimmerButton from "./ui/ShimmerButton";
 
@@ -9,6 +10,9 @@ const Hero = () => {
     <div className="relative pb-20 pt-36">
       <div className="relative z-10">
         <Spotlight className="-top-40 -left-10 md:-left-32 md:-top-20 h-screen" />
+        <BackgroundLines className="flex items-center justify-center w-full flex-col px-4">
+      <h1></h1>
+    </BackgroundLines>
       </div>
       <div className="relative z-20 flex justify-center my-20">
         <div className="max-w-[89vw] md:max-w-2xl lg:max-w-[60vw] flex flex-col items-center justify-center">
@@ -23,11 +27,11 @@ const Hero = () => {
           <div className="mt-4 flex gap-6">
             <a
               target="_blank"
-              href="https://drive.google.com/file/d/1lZFRR2tHmM7XWZ9fGiFwGX8HpYHWGQDr/view"
+              href="https://drive.google.com/file/d/1Mg90HolKVqlmL_1ySDY5ISZOV5JyAyj5/view"
             >
               <MagicButton />
             </a>
-            <a href="https://drive.usercontent.google.com/uc?id=1lZFRR2tHmM7XWZ9fGiFwGX8HpYHWGQDr&export=download">
+            <a href="https://drive.usercontent.google.com/uc?id=1Mg90HolKVqlmL_1ySDY5ISZOV5JyAyj5&export=download">
               <ShimmerButton />
             </a>
           </div>

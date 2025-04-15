@@ -12,7 +12,6 @@ type SpotlightProps = {
   smallWidth?: number;
   duration?: number;
   xOffset?: number;
-  className?: string;  // Add className here
 };
 
 export const Spotlight = ({
@@ -25,7 +24,6 @@ export const Spotlight = ({
   smallWidth = 240,
   duration = 7,
   xOffset = 100,
-  className = "",  // Allow className to be passed as an optional prop
 }: SpotlightProps = {}) => {
   return (
     <motion.div
@@ -38,7 +36,7 @@ export const Spotlight = ({
       transition={{
         duration: 1.5,
       }}
-      className={`pointer-events-none absolute inset-0 h-full w-full ${className}`}  // Apply className here
+      className="pointer-events-none absolute inset-0 h-full w-full"
     >
       <motion.div
         animate={{
