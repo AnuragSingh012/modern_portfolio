@@ -3,7 +3,7 @@
 
 ### [Live Site](https://anurag-portfolio-nu.vercel.app)
 
-![Portfolio Website](https://res.cloudinary.com/dpwczamws/image/upload/v1716918576/uploads/Screenshot_2024-05-28_231842_hdsqoe.png)
+![Portfolio Website](https://res.cloudinary.com/dpwczamws/image/upload/v1744723679/uploads/xlsmk3heiwhmqaycoonf.png)
 
 ## <a name="tech-stack">⚙️ Tech Stack</a>
 - React
