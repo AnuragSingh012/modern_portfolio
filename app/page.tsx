@@ -4,6 +4,7 @@ import { Grid } from "@/components/Grid";
 import { Projects } from "@/components/Projects";
 import { navItems } from "@/data";
 import Footer from "@/components/Footer";
+import VibeCodedProjects from "@/components/VibeCodedProjects";
 
 export default function Home() {
   return (
@@ -16,6 +17,7 @@ export default function Home() {
         <Hero />
         <Grid />
         <Projects />
+        <VibeCodedProjects />
         <Footer />
       </div>
     </main>

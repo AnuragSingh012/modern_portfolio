@@ -92,6 +92,39 @@ export const projects = [
   },
 ];
 
+export const vibe_coded_projects = [
+  {
+    id: 1,
+    title: "Referrify",
+    des: "Launch and manage referral campaigns with ease—turn customers into advocates, track performance, and automate rewards",
+    image:
+      "/referrify.png",
+    link: "https://referrify.vercel.app/",
+    live: "Live Site",
+    className: "absolute w-90 bg-black-100 top-20 right-[35%] rotate-[2deg]",
+  },
+  {
+    id: 2,
+    title: "RoundRobin",
+    des: "Distribute coupons fairly and securely with smart round-robin allocation and built-in abuse prevention",
+    image:
+      "/round_robin.png",
+    link: "https://round-robin-two.vercel.app/",
+    live: "Live Site",
+    className: "absolute w-90 bg-black-100 top-[150px] left-[45%] rotate-[-7deg]",
+  },
+  {
+    id: 3,
+    title: "Pokémon Explorer",
+    des: "Discover and explore your favorite Pokémon with detailed stats, evolutions, and more",
+    image:
+      "/pokemon.png",
+    link: "https://pokemon-orcin-gamma-49.vercel.app/",
+    live: "Live Site",
+    className: "absolute w-90 bg-black-100 inter-var rounded-xl top-8 left-[30%] rotate-[4deg]",
+  },
+];
+
 export const socialMedia = [
   {
     id: 1,
